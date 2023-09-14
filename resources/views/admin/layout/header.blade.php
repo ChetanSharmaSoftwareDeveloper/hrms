@@ -26,7 +26,7 @@
             <div class="col-md-3 left_col">
                 <div class="left_col scroll-view">
                     <div class="navbar nav_title" style="border: 0;">
-                        <a href="../admin/dashboard.php" class="site_title"><i class="fa fa-paw"></i> <span>Sandwitch Group !</span></a>
+                        <a href="../admin/dashboard.php" class="site_title"><i class="fa fa-paw"></i> <span>HRMS !</span></a>
                     </div>
 
                     <div class="clearfix"></div>    
@@ -38,7 +38,7 @@
                         </div>
                         <div class="profile_info">
                             <span>Welcome,</span>
-                            <h2>Sandwitch Group</h2>
+                            <h2>HRMS</h2>
                         </div>
                     </div>
                     <!-- /menu profile quick info -->
@@ -122,7 +122,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class="">
                                 <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                    <img src="{{ asset('assets/images/img.png') }}" alt="">Sandwitch Group
+                                    <img src="{{ asset('assets/images/img.png') }}" alt="">HRMS
                                     <span class=" fa fa-angle-down"></span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -145,7 +145,7 @@
                                         <a>
                                             <span class="image"><img src="{{ asset('assets/images/img.png') }}" alt="Profile Image" /></span>
                                             <span>
-                                              <span>Sandwitch Group</span>
+                                              <span>HRMS</span>
                                               <span class="time">event time</span>
                                             </span>
                                             <span class="message">
