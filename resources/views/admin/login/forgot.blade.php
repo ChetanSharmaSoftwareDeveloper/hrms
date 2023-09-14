@@ -212,35 +212,23 @@ animation-delay: 1s;
     margin-top: 10px;
     text-decoration: none;
 }
-.error{
-    color: red;
-    font-size: 12px;
-    margin-top: 2px;
-}
 
     </style>
-    <title>Login</title>
+    <title>Reset Password</title>
   </head>
   <body>
-    <form action="{{route('login-check')}}" method="post" class="form">
-        @csrf
+    <form action="" class="form">
       <span></span>
       <span></span>
       <span></span>
       <span></span>
       <div class="form-inner">
-        <h2>LOGIN</h2>
+        <h2>Reset Password</h2>
         <div class="content">
-          <input class="input" type="text" placeholder="Email" name="email" />
-          @error('email')
-            <p class="error">{{$message}}</p>
-          @endif
-          <input class="input" type="password" placeholder="Password" name="password" />
-          @error('password')
-            <p class="error">{{$message}}</p>
-          @endif
-          <button class="btn">LOGIN</button>
-          <a href="<?=url('forgot-password');?>" class="forgot">Forgot password ?</a></div>
+          <input class="input" type="email" placeholder="Email" />
+          <!-- <input class="input" type="password" placeholder="Password" /> -->
+          <button class="btn">Send Password Reset</button>
+          <a href="{{url('/')}}" class="forgot">Login Back</a></div>
       </div>
     </form>
   </body>

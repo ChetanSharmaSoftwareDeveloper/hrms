@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Admin\ForgotPassword;
+use App\Http\Controllers\Admin\LoginController;
+use App\Http\Controllers\Admin\DashboardController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,3 +19,6 @@ Route::get('/', function () {
     return view('admin.login.login');
     //return view('admin.dashboard');
 });
+Route::get('forgot-password',[ForgotPassword::class,'index']);
+Route::post('login-check',[LoginController::class,'index'])->name('login-check');
+Route::get('admin/dashboard',[DashboardController::class,'index']);
